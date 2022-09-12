@@ -16,19 +16,17 @@
 }
 
 .three {
-    border: 2px dotted lightblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 ul {
-    border: 2px dotted lightgreen;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 300px;
+    margin: auto auto auto 0;
 }
 .four {
     display: flex;
@@ -43,5 +41,12 @@ form {
 
 .five {
     display: flex;
-    
+    flex-wrap: wrap;
+
+}
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 351px;
+    flex-grow: 1;
 }
